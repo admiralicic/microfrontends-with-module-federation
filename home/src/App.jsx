@@ -3,7 +3,10 @@ import ReactDOM from "react-dom";
 import Footer from "./Footer";
 import Header from "./Header";
 
+import "remixicon/fonts/remixicon.css";
+
 import "./index.scss";
+
 import HomeContent from "./HomeContent";
 
 const App = () => (
