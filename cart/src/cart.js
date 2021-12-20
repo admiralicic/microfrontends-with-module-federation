@@ -34,7 +34,7 @@ export const addToCart = (id) =>
     });
 
 export const clearCart = () =>
-  fetched(`${API_SERVER}/cart`, {
+  fetch(`${API_SERVER}/cart`, {
     method: "DELETE",
     headers: {
       "Content-Type": "application/json",
